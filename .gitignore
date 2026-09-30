@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------
+# Proyecto Java SE sin build tool: los .class se generan con javac
+# ---------------------------------------------------------------
+
+# Carpeta de salida de la compilacion (javac -d out)
+out/
+
+# Compilados y empaquetados
+*.class
+*.jar
+*.war
+*.ear
+
+# Carpetas de build tipicas (por si mas adelante se agrega Maven/Gradle)
+target/
+build/
+bin/
+
+# ---------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------
+*.log
+
+# ---------------------------------------------------------------
+# IDEs (IntelliJ IDEA / Eclipse)
+# ---------------------------------------------------------------
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Nota: .vscode/ NO se ignora a proposito, asi se puede versionar
+# .vscode/launch.json o settings.json si se decide compartir la config.
+
+# ---------------------------------------------------------------
+# Sistema operativo
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
